@@ -70,6 +70,7 @@ a,
 
 .hero-text {
   color: hsl(218, 22%, 67%);
+  line-height: 1.6;
 }
 
 .sub-container {
@@ -116,6 +117,7 @@ a,
   background-color: hsl(71, 73%, 54%);
   padding: 1.6rem;
   text-align: center;
+  transition: 0.1s;
 }
 
 .btn:hover {
@@ -151,4 +153,54 @@ a,
 }
 .attribution a {
   color: hsl(179, 62%, 43%);
+}
+
+@media (max-width: 800px) {
+  .main-container {
+    max-width: 30rem;
+    margin: 7rem 0;
+  }
+
+  .hero {
+    padding: 2.4rem;
+  }
+
+  .headline {
+    font-size: 1.9rem;
+  }
+
+  .sub-headline {
+    font-size: 1.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.3rem;
+  }
+
+  .sub-container {
+    flex-direction: column;
+  }
+
+  .monthly,
+  .why-us {
+    padding: 2.4rem;
+  }
+
+  .monthly-headline,
+  .why-us-headline {
+    font-size: 1.7rem;
+  }
+
+  .monthly-text {
+    margin-bottom: 2.8rem;
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 1.4rem;
+  }
+
+  .list {
+    font-size: 1.3rem;
+  }
 }
